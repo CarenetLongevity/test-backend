@@ -12,11 +12,11 @@ Cada leito tem um paciente, um médico responsável e pode ter mais que um enfer
 - Médico (id, nome, crm)
 - Enfermeiro (id, nome, coren)
 
-## Critérios lógico
+## Critérios lógicos
 - Leito não pode ser aberto sem escolher um usuário existente, médico e no mínimo um enfermeiro(a).
 - Leito deve conter apenas um único médico e pode conter vários enfermeiro(a)s.
 
-## Endpoints esperados
+## Endpoints
 - CRUD Paciente
 - CRUD Medico
 - CRUD Enfermeiros
@@ -25,7 +25,7 @@ Cada leito tem um paciente, um médico responsável e pode ter mais que um enfer
 - retornar todos os leitos onde o médico é responsável informado via CRM.
 - retornar todos os leitos onde o enfermeiro(a) está trabalhando via COREN.
 
-## Critérios técnico
+## Critérios técnicos
 - Javascript ES6
 - Typescript
 - Nodejs
