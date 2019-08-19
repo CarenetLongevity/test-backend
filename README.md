@@ -31,7 +31,7 @@ Cada leito tem um paciente, um médico responsável e pode ter mais que um enfer
 - Nodejs
 - Express
 - Mongodb
-- Docker
+- Docker (imagem para aplicação e outra para banco de dados)
 
 
 ## Entrega
