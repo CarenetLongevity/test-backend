@@ -19,7 +19,9 @@ Cada leito tem um paciente, um médico responsável e pode ter mais que um enfer
 ## Endpoints esperados
 - CRUD Paciente
 - CRUD Medico
-- CRUD
+- CRUD Enfermeiros
+- Vincular Paciente a um leito, informando o médico e enfermeiro(a)s
+- Retornar leitos usados
 - retornar todos os leitos onde o médico é responsável informado via CRM.
 - retornar todos os leitos onde o enfermeiro(a) está trabalhando via COREN.
 
