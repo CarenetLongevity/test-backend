@@ -6,15 +6,28 @@ Precisamos saber qual é a equipe médica que está responsável pela internaç�
 
 Cada leito tem um paciente, um médico responsável e pode ter mais que um enfermeiro(a) em monitoramento. Desenvolva uma API REST que irá alimentar cada item e que seja capaz de vincular [ paciente x leito ], [ médico x leito ], [ enfermeiros x leito ].
 
-## Critério lógico
+## Tabelas
+- Leitos (id, paciente, médico, enfermeiros)
+- Paciente (id, nome, cpf)
+- Médico (id, nome, crm)
+- Enfermeiro (id, nome, coren)
+
+## Critérios lógico
 - Leito não pode ser aberto sem escolher um usuário existente, médico e no mínimo um enfermeiro(a).
 - Leito deve conter apenas um único médico e pode conter vários enfermeiro(a)s.
-- Criar um endpoint extra que irá retornar todos os leitos onde o médico informado via ID é responsável.
+
+## Endpoints esperados
+- CRUD Paciente
+- CRUD Medico
+- CRUD
+- retornar todos os leitos onde o médico é responsável informado via CRM.
+- retornar todos os leitos onde o enfermeiro(a) está trabalhando via COREN.
 
 ## Critérios técnico
 - Javascript ES6
 - Typescript
 - Nodejs
+- Express
 - Mongodb
 - Docker
 
